@@ -26,9 +26,16 @@ const model = {
                 if (this.isSunk(ship)){
                     view.displayMessage("You sank my battleship!");
                     this.shipsSunk++
+                    
+                    if (this.shipsSunk === this.numShips){
+                        console.log("GameOver all ships ");
+                    
+                        reset();
+                        init();
+                    }
                 }
                 return true;
-            }
+            } 
         }
         view.displayMiss(guess);
         view.displayMessage("You missed!");
@@ -127,7 +134,7 @@ function parseGuess(guess){
     let alphabet = ["A","B","C","D","E","F","G"];
 
     if (guess === null || guess.length !== 2){
-        alert("Please enter a valid guess. (A-G & #1-7)");
+        alert("Please enter a valid guess. (A-G & #0-6)");
     } else {
         let firstChar = guess.charAt(0);
         let row = alphabet.indexOf(firstChar);
@@ -163,6 +170,10 @@ function handlekeyPress(e){
         return false;
     }
 };
+
+function reset(){
+    location.reload;
+}
 
 function init() {
     let fireButton = document.getElementById("fireButton");
