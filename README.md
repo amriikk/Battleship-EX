@@ -23,13 +23,21 @@ This browser game is an adaptation of BattleShips. :ship:
 
 
 ## Technology Utilized: 
-Battle Wars EX browser game uses HTML5, CSS, JavaScript, and jQuery.
+Battle Wars EX browser game uses:
+
+:small_blue_diamond: HTML5
+
+:small_blue_diamond: CSS
+
+:small_blue_diamond: JavaScript
+
+:small_blue_diamond: jQuery
 
 *Fonts brought to you by Google-Fonts ('Righteous')*
 
 ## Getting Started:
 
-(https://amriikk.github.io/battleship/ "Battle Wars EX game")
+[Link to Game](https://amriikk.github.io/battleship/ "Battle Wars EX game") :trollface:
 
 To start the game, select a begin by inputing a coordinate in the guess box located at the bottom right of the game board. 
 
@@ -53,13 +61,13 @@ The objective of the game it to sink all 3 of the CPU ships to win the game!
 
 ## IceBox Features:
 
-- [ ] Create a 2-player mode
+- [ ] Create a 2-player mode :busts_in_silhouette:
 
-- [ ] Add sounds to game
+- [ ] Add sounds to game :sound:
 
-- [ ] Add more animation especially on the buttons
+- [ ] Add more animation especially on the buttons :shipit:
 
-- [ ] Option for a bigger board
+- [ ] Option for a bigger board :white_square_button:
 
-- [x] Adding a modal for the rules
+- [x] Adding a modal for the rules :heavy_check_mark:
 
