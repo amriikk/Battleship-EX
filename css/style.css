@@ -10,15 +10,15 @@ body {
     background: url(/assets/images/grayBackground.jpg) no-repeat;
     background-color: darkslategrey;
 }
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 h1 {
-    font-size: 40px;
-    font-weight: bold;
-    font-style: oblique;
+    font-size: 48px;
+    /* font-weight: bold; */
+    /* font-style: oblique; */
     font-family: 'Righteous', cursive;
     color: rgb(200, 200, 200);
     background: url(/assets/images/grayBackground.jpg) no-repeat; 
@@ -26,10 +26,9 @@ h1 {
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
     border-style: groove;
-    
     padding: 5px;
 }
-div#gBoard{
+div#gBoard {
     position: relative;
     width: 1024px;
     height: 925px;
@@ -38,9 +37,9 @@ div#gBoard{
     border: 6px solid rgb(0, 0, 0);
     border-radius: 10px;
     border-style: groove;
-    bottom: 12px;
+    bottom: 10px;
 }
-div#messageBox{
+div#messageBox {
     border: 3px solid rgb(255, 255, 255);
     background: url(/assets/images/grayBackground.jpg);
     border-style: groove;
@@ -95,3 +94,49 @@ form input {
     font-size: 1em;
     border-radius: 8px;
 }
+
+/* IceBox Features */
+.myBtn {
+    background-color: rgb(175, 175, 175);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background: url(/assets/images/grayBackground.jpg);
+    margin: auto;
+    padding: 20px;
+    border: 5px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    border-style: groove;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(175, 175, 175);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }

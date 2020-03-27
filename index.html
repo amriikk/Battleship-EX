@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Battle Wars EX</title>
     <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <link rel= "icon" type="image/png" href="assets/images/battleshipIcon.png"/>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="battleIcon"><img src="/assets/images/battleshipIcon.png"></div>
     <header><h1>&#8709; Battle Wars EX &#8709;</h1></header>
+    <!-- Steel Game Board -->
     <div id="gBoard">
         <div id="messageBox"></div>
-        <!-- GridBoard -->
+    <!-- GridBoard -->
             <table>
                 <tr>
                     <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
@@ -40,12 +42,34 @@
                     <td id="60"></td><td id="61"></td><td id="62"></td><td id="63"></td><td id="64"></td><td id="65"></td><td id="66"></td>
                 </tr>
             </table>
-        <!-- UI: guessBox & fireButton -->
+    <!-- UI: guessBox & fireButton -->
             <form>
                 <input type="text" id="guessBox" placeholder="A0">
                 <input type="button" id="fireButton" value="Fire!" >
             </form>
     </div>
+    <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Game Rules</button>
+
+    <!-- The Modal -->
+        <div id="myModal" class="modal">
+        <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p> <h2> &#8709; &#8709; Battle Wars Game Rules &#8709; &#8709; </h2> </br>
+                    <h3>&#8709; The objective of Battle Wars is to try and sink all of the CPU's ships.</br>
+                        &#8709; All of the CPU's ships are somewhere on the game board. </br>
+                        &#8709; The Axis is comprised of rows and columns: </br>
+                        &#8709; A-G for the Rows | 0-6 for the Columns </br>
+                        &#8709; You try and hit them by calling out the coordinates of one 
+                        of the squares on the board.</br>
+                        &#8709; Sink all 3 of the CPU's and you WIN!
+                    </h3>
+                </p>
+            </div>
+        </div>
+    <div id="battleIcon"><img src="/assets/images/battleshipIcon.png"></div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
