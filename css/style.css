@@ -17,16 +17,21 @@ header {
 }
 h1 {
     font-size: 48px;
-    /* font-weight: bold; */
-    /* font-style: oblique; */
+    font-weight: bold;
+    font-style: oblique;
     font-family: 'Righteous', cursive;
-    color: rgb(200, 200, 200);
+    color: rgb(175, 175, 175);
     background: url(/assets/images/grayBackground.jpg) no-repeat; 
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
     border-style: groove;
     padding: 5px;
+}
+h2 {
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
 }
 div#gBoard {
     position: relative;
@@ -96,9 +101,6 @@ form input {
 }
 
 /* IceBox Features */
-.myBtn {
-    background-color: rgb(175, 175, 175);
-}
 
 /* The Modal (background) */
 .modal {
