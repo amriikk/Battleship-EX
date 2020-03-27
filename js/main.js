@@ -28,9 +28,12 @@ const model = {
                     this.shipsSunk++
                     
                     if (this.shipsSunk === this.numShips){
-                        console.log("GameOver all ships ");
+                        alert("GameOver all ships have sunk!");
                     
-                        reset();
+                        setTimeout(()=> {
+                            this.reset()
+                         }, 1500);
+                         location.reload;
                         init();
                     }
                 }
@@ -40,6 +43,16 @@ const model = {
         view.displayMiss(guess);
         view.displayMessage("You missed!");
         return false;
+    },
+
+    reset: function() {
+        this.shipsSunk = 0;
+        this.ships = [
+          {locations: [0,0,0], hits: ["","",""]},
+          {locations: [0,0,0], hits: ["","",""]},
+          {locations: [0,0,0], hits: ["","",""]}
+      ];
+      view.displayReset();
     },
 
     isSunk: function(ship){
@@ -106,13 +119,17 @@ const view = {
     },
 
     displayHit: function(location){
-        var cell = document.getElementById(location);
+        let cell = document.getElementById(location);
         cell.setAttribute("class", "hit");
     },
 
     displayMiss: function(location){
-        var cell = document.getElementById(location);
+        let cell = document.getElementById(location);
         cell.setAttribute("class", "miss");
+    },
+    displayReset: function(location){
+        // grab all element nodes from board and then delete
+        $('td').attr('class', "")
     }
 };
 const controller = {
@@ -170,10 +187,6 @@ function handlekeyPress(e){
         return false;
     }
 };
-
-function reset(){
-    location.reload;
-}
 
 function init() {
     let fireButton = document.getElementById("fireButton");

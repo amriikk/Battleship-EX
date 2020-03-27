@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BattleShip EX</title>
+    <title>Battle Wars EX</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <link rel= "icon" type="image/png" href="assets/images/battleshipIcon.png"/>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><h1>Battleship EX</h1></header>
+    <header><h1>&#8709; Battle Wars EX &#8709;</h1></header>
     <div id="gBoard">
         <div id="messageBox"></div>
+        <!-- GridBoard -->
             <table>
                 <tr>
                     <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
@@ -34,10 +40,10 @@
                     <td id="60"></td><td id="61"></td><td id="62"></td><td id="63"></td><td id="64"></td><td id="65"></td><td id="66"></td>
                 </tr>
             </table>
-    <!-- UI: guessBox & fireButton -->
+        <!-- UI: guessBox & fireButton -->
             <form>
                 <input type="text" id="guessBox" placeholder="A0">
-                <input type="button" id="fireButton" value="shoot!" >
+                <input type="button" id="fireButton" value="Fire!" >
             </form>
     </div>
     <script src="js/main.js"></script>
