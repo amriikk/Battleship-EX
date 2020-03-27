@@ -7,7 +7,7 @@ body {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background: url(/assets/images/grayBackground.jpg) no-repeat;
+    background: url(../assets/images/grayBackground.jpg) no-repeat;
     background-color: darkslategrey;
 }
 header {
@@ -21,7 +21,7 @@ h1 {
     font-style: oblique;
     font-family: 'Righteous', cursive;
     color: rgb(175, 175, 175);
-    background: url(/assets/images/grayBackground.jpg) no-repeat; 
+    background: url(../assets/images/grayBackground.jpg) no-repeat; 
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
@@ -38,7 +38,7 @@ div#gBoard {
     width: 1024px;
     height: 925px;
     margin: auto;
-    background: url(/assets/images/steel.jpg) center no-repeat;
+    background: url(../assets/images/steel.jpg) center no-repeat;
     border: 6px solid rgb(0, 0, 0);
     border-radius: 10px;
     border-style: groove;
@@ -46,7 +46,7 @@ div#gBoard {
 }
 div#messageBox {
     border: 3px solid rgb(255, 255, 255);
-    background: url(/assets/images/grayBackground.jpg);
+    background: url(../assets/images/darkOcean.png);
     border-style: groove;
     border-radius: 5px;
     position: absolute;
@@ -88,7 +88,7 @@ form {
     right: 10px;
     padding: 15px;
     border-radius: 8px;
-    background: url(/assets/images/darkOcean.png) no-repeat;
+    background: url(../assets/images/darkOcean.png) no-repeat;
     border-style: groove;
 }
 form input {
@@ -119,7 +119,7 @@ form input {
   
   /* Modal Content */
   .modal-content {
-    background: url(/assets/images/grayBackground.jpg);
+    background: url(../assets/images/grayBackground.jpg);
     margin: auto;
     padding: 20px;
     border: 5px solid rgb(175, 175, 175);
