@@ -41,7 +41,11 @@ The objective of the game it to sink all 3 of the CPU ships to win the game!
 
 ## IceBox Features:
 ~~Adding a modal for the rules~~
+
 .*Create a 2-player mode*
+
 .*Add sounds to game*
+
 .*Add more animation especially on the buttons*
+
 .*Option for a bigger board*
