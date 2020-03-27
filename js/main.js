@@ -188,9 +188,7 @@ function handlekeyPress(e){
 };
 
 
-
 // Setting up Modal for Game Rules //
-
 
 // Get the modal
     let modal = document.getElementById("rulesModal");
@@ -213,7 +211,6 @@ function handlekeyPress(e){
             modal.style.display = "none";
         }
     }
-
 // End of IceBox features
 
 function init() {
