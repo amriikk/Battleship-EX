@@ -3,8 +3,8 @@
 ## John Trujillo
 ### SEI-DT-71
 
-![GamePlay Screenshot 1](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_00.png)
-![GamePlay Screenshot 2](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_02.png)
+![GamePlay Screenshot 1](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_00.png/500x400)
+![GamePlay Screenshot 2](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_02.png/500x400)
 
 ## Game Description:
 This browser game is an adaptation of BattleShips. 
@@ -25,7 +25,7 @@ This browser game is an adaptation of BattleShips.
 ## Technology Utilized: 
 Battle Wars EX browser game uses HTML5, CSS, JavaScript, and jQuery.
 
-*Fonts brought to you by Google-Fonts ### ('Righteous')*
+*Fonts brought to you by Google-Fonts ('Righteous')*
 
 ## Getting Started:
 
@@ -39,13 +39,27 @@ The objective of the game it to sink all 3 of the CPU ships to win the game!
 
 ## Pseudocode:
 
+Begin by setting up files: HTML, CSS, JS
+
+Draw out a map for how the board should look
+
+Give appropraite IDs and Classes to my elements
+
+Start by setting up some basic CSS styles; fonts, background, colors
+
+Declare variables in JS file
+
+Map out functions for game play 
+
 ## IceBox Features:
-~~Adding a modal for the rules~~
 
-.*Create a 2-player mode*
+- [ ] Create a 2-player mode
 
-.*Add sounds to game*
+- [ ] Add sounds to game
 
-.*Add more animation especially on the buttons*
+- [ ] Add more animation especially on the buttons
 
-.*Option for a bigger board*
+- [ ] Option for a bigger board
+
+- [x] Adding a modal for the rules
+
