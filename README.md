@@ -1,4 +1,4 @@
-# BattleShip EX
+# BattleWars EX
 
 ## John Trujillo
 ### SEI-DT-71
