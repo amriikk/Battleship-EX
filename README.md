@@ -7,7 +7,7 @@
 ![GamePlay Screenshot 2](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_02.png/)
 
 ## Game Description:
-This browser game is an adaptation of BattleShips. :ship:
+#### This browser game is an adaptation of BattleShips. :ship:
 
 ∅ The objective of Battle Wars EX is to try and sink all of the CPU's ships.
 
@@ -23,15 +23,15 @@ This browser game is an adaptation of BattleShips. :ship:
 
 
 ## Technology Utilized: 
-Battle Wars EX browser game uses:
+#### Battle Wars EX browser game uses:
 
-:small_blue_diamond: HTML5
+###### :small_blue_diamond: HTML5
 
-:small_blue_diamond: CSS
+###### :small_blue_diamond: CSS
 
-:small_blue_diamond: JavaScript
+###### :small_blue_diamond: JavaScript
 
-:small_blue_diamond: jQuery
+###### :small_blue_diamond: jQuery
 
 *Fonts brought to you by Google-Fonts ('Righteous')*
 
