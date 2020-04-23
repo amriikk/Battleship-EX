@@ -45,7 +45,7 @@ To start the game, select a begin by inputing a coordinate in the guess box loca
 
 Select (A-G) for your row selection + (0-6) for your column selection. 
 
-###### The objective of the game it to sink all 3 of the CPU ships to win the game!
+#### The objective of the game it to sink all 3 of the CPU ships to win the game!
 
 ## Pseudocode:
 
