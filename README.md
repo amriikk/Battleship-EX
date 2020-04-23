@@ -3,7 +3,7 @@
 ## John Trujillo
 ### SEI-DT-71
 
-![GamePlay Screenshot 1](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_00.png/)
+
 ![GamePlay Screenshot 2](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_02.png/)
 
 ## Game Description:
@@ -38,6 +38,8 @@ Battle Wars EX browser game uses:
 ## Getting Started:
 
 [Link to Game](https://amriikk.github.io/battleship/ "Battle Wars EX game") :trollface:
+
+![GamePlay Screenshot 1](https://github.com/amriikk/battleship/blob/master/assets/README/BattleWars_00.png/)
 
 To start the game, select a begin by inputing a coordinate in the guess box located at the bottom right of the game board. 
 
